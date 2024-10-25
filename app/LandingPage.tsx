@@ -72,6 +72,7 @@ export default function LandingPage({ darkMode, setDarkMode }: LandingPageProps)
   }
   const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
     <button
+      type='button'
       onClick={() => scrollToSection(href.slice(1))}
       className={`hover:text-blue-600 dark:hover:text-blue-400 transition-colors capitalize nav-link ${
         activeSection === href.slice(1) ? 'text-blue-600 dark:text-blue-400' : ''
@@ -109,6 +110,7 @@ export default function LandingPage({ darkMode, setDarkMode }: LandingPageProps)
             </nav>
             <div className="flex items-center space-x-4">
               <button
+                type='button'
                 onClick={toggleDarkMode}
                 className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition-colors hover:bg-gray-300 dark:hover:bg-gray-600"
                 aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
@@ -116,6 +118,7 @@ export default function LandingPage({ darkMode, setDarkMode }: LandingPageProps)
                 {darkMode ? <Sun size={20} /> : <Moon size={20} />}
               </button>
               <button
+                type='button'
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="md:hidden p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition-colors hover:bg-gray-300 dark:hover:bg-gray-600"
                 aria-label="Toggle menu"
@@ -143,6 +146,7 @@ export default function LandingPage({ darkMode, setDarkMode }: LandingPageProps)
                     className={`text-lg hover:text-blue-600 dark:hover:text-blue-400 transition-colors capitalize nav-link ${
                       activeSection === section ? 'text-blue-600 dark:text-blue-400' : ''
                     }`}
+                    aria-label={`Go to ${section.replace(/'/g, "&apos;")}`}
                   >
                     {section}
                   </Link>
@@ -482,7 +486,7 @@ export default function LandingPage({ darkMode, setDarkMode }: LandingPageProps)
                   <input type="email" placeholder="Your Email" className="w-full px-4 py-2 rounded-md bg-white/10 backdrop-blur-md text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white" />
                 </div>
                 <div className="mb-4">
-                  <textarea placeholder="Your Message" rows={4} className="w-full px-4 py-2 rounded-md bg-white/10 backdrop-blur-md text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white"></textarea>
+                  <textarea placeholder="Your Message" rows={4} className="w-full px-4 py-2 rounded-md bg-white/10 backdrop-blur-md text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white"/>
                 </div>
                 <button type="submit" className="bg-white text-blue-600 hover:bg-blue-100 font-bold py-2 px-6 rounded-full transition-colors">
                   Send Message
