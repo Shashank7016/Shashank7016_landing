@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep \"\\\\.tsx$\")",
+      "Bash(npx next:*)"
+    ]
+  }
+}
