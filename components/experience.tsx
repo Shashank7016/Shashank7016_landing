@@ -10,14 +10,6 @@ interface ExperienceProps {
 
 const experiences = [
   {
-    title: "Frontend Developer",
-    company: "Spryzo",
-    description:
-      "Developed the frontend using Next.js and React.js, incorporating responsive designs with Tailwind CSS and SCSS. Created reusable UI components and integrated AI-driven features to match talent with businesses based on skills. Ensured seamless alignment of design and functionality to enhance user experience.",
-    period: "July 2024 to Nov 2024",
-    technologies: ["Next.js", "React.js", "SCSS", "Tailwind CSS", "AI", "LLM Models"],
-  },
-  {
     title: "Frontend Contributor",
     company: "Digital Notebook (Internal Tool for Corporate Client)",
     description:

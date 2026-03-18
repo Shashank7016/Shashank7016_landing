@@ -18,6 +18,8 @@ const projects = [
     technologies: ["Next.js", "React.js", "Three.js", "Tailwind CSS"],
     role: "Frontend Developer",
     type: "Pre-Seed Startup",
+    github: "https://github.com/Shashank7016/3dSneaker_Store", // TODO: add GitHub link
+    demo: "https://3dsneakershoestore.vercel.app/",   // TODO: add live demo link
   },
   {
     title: "Flood Prevention Management System",
@@ -27,6 +29,8 @@ const projects = [
     technologies: ["React.js", "Ant Design", "Papa Parse"],
     role: "Frontend Developer",
     type: "Pre-Seed Startup",
+    github: "https://github.com/Shashank7016/flood-prediction-app", // TODO: add GitHub link
+    demo: "https://github.com/Shashank7016/flood-prediction-app",   // TODO: add live demo link
   },
   {
     title: "FAQ Chatbot System",
@@ -36,6 +40,30 @@ const projects = [
     technologies: ["GPT-medium", "DistilBERT", "Flask", "Node.js", "React.js", "Ant Design"],
     role: "Full Stack Developer",
     type: "Academic Project",
+    github: "https://github.com/Shashank7016/swinburne-faq-ai", // TODO: add GitHub link
+    demo: "https://github.com/Shashank7016/swinburne-faq-ai",   // TODO: add live demo link
+  },
+  {
+    title: "AI Bill Splitter",
+    description:
+      "Developed a smart bill-splitting app where users can snap a photo of a receipt and AI automatically analyzes and extracts line items. Users can add group members and split expenses fairly among themselves. Built with a full-stack architecture featuring real-time updates and an intuitive drag-and-drop interface for assigning items.",
+    image: "/ai-bill-splitter.svg",
+    technologies: ["React.js", "Vite", "Tailwind CSS", "OpenAI GPT-4o-mini", "Vision API", "Canvas 2D API"],
+    role: "Full Stack Developer",
+    type: "Personal Project",
+    github: "https://github.com/Shashank7016/splitbill", // TODO: add GitHub link
+    demo: "https://aisplitbill.vercel.app/",   // TODO: add live demo link
+  },
+  {
+    title: "AI Image Generator & Editor",
+    description:
+      "Built an AI-powered image generation platform where users can create images from text prompts and edit them directly on an interactive canvas. Features include inpainting, outpainting, layer management, and real-time brush editing. Integrated generative AI APIs with a custom canvas editor for a seamless creative workflow.",
+    image: "/ai-image-generator.svg",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI GPT-Image-1", "Node.js"],
+    role: "Full Stack Developer",
+    type: "Personal Project",
+    github: "https://github.com/Shashank7016/ImageGen", // TODO: add GitHub link
+    demo: "https://imagegen-rose.vercel.app/",   // TODO: add live demo link
   },
   {
     title: "Code Editor",
@@ -45,6 +73,8 @@ const projects = [
     technologies: ["React.js", "HTML", "CSS", "JavaScript", "CodeMirror"],
     role: "Developer",
     type: "Personal Project",
+    github: "https://github.com/Shashank7016/code-editor", // TODO: add GitHub link
+    demo: "https://github.com/Shashank7016/code-editor",   // TODO: add live demo link
   },
 ]
 

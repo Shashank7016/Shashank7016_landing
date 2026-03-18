@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1333;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="canvas-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#581c87;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg2)" rx="12"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="48" fill="#0c0a1a" rx="12"/>
+  <rect x="0" y="12" width="800" height="36" fill="#0c0a1a"/>
+  <circle cx="24" cy="24" r="6" fill="#ef4444" opacity="0.8"/>
+  <circle cx="44" cy="24" r="6" fill="#eab308" opacity="0.8"/>
+  <circle cx="64" cy="24" r="6" fill="#22c55e" opacity="0.8"/>
+  <text x="400" y="29" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="13" font-weight="600">AI Image Studio</text>
+
+  <!-- Left toolbar -->
+  <rect x="0" y="48" width="56" height="452" fill="#110e24"/>
+
+  <!-- Tool icons -->
+  <rect x="14" y="68" width="28" height="28" fill="#7c3aed" opacity="0.3" rx="6"/>
+  <text x="28" y="87" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="14">V</text>
+
+  <rect x="14" y="108" width="28" height="28" fill="transparent" rx="6"/>
+  <text x="28" y="127" text-anchor="middle" fill="#6b7280" font-family="system-ui" font-size="14">B</text>
+
+  <rect x="14" y="148" width="28" height="28" fill="transparent" rx="6"/>
+  <text x="28" y="167" text-anchor="middle" fill="#6b7280" font-family="system-ui" font-size="14">E</text>
+
+  <rect x="14" y="188" width="28" height="28" fill="transparent" rx="6"/>
+  <text x="28" y="207" text-anchor="middle" fill="#6b7280" font-family="system-ui" font-size="14">T</text>
+
+  <rect x="14" y="228" width="28" height="28" fill="transparent" rx="6"/>
+  <text x="28" y="247" text-anchor="middle" fill="#6b7280" font-family="system-ui" font-size="14">L</text>
+
+  <!-- Separator -->
+  <line x1="14" y1="270" x2="42" y2="270" stroke="#2d2650" stroke-width="1"/>
+
+  <!-- Color swatches -->
+  <circle cx="22" cy="296" r="8" fill="#a855f7"/>
+  <circle cx="40" cy="296" r="8" fill="#ec4899"/>
+  <circle cx="22" cy="318" r="8" fill="#3b82f6"/>
+  <circle cx="40" cy="318" r="8" fill="#22c55e"/>
+
+  <!-- Canvas area -->
+  <rect x="72" y="64" width="460" height="400" fill="#1a1333" rx="8" stroke="#2d2650" stroke-width="1"/>
+
+  <!-- Checkerboard pattern hint -->
+  <rect x="72" y="64" width="460" height="400" fill="url(#canvas-bg)" rx="8" opacity="0.5"/>
+
+  <!-- Generated image mockup - a dreamy landscape -->
+  <rect x="108" y="100" width="388" height="280" fill="#1e1145" rx="12" stroke="#7c3aed" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Mountains -->
+  <polygon points="108,380 200,220 280,300 340,200 420,280 496,180 496,380" fill="#2d1b69" opacity="0.8"/>
+  <polygon points="108,380 180,260 260,320 350,240 430,310 496,250 496,380" fill="#3b2080" opacity="0.6"/>
+
+  <!-- Moon/sun -->
+  <circle cx="420" cy="160" r="36" fill="#e9d5ff" opacity="0.3"/>
+  <circle cx="420" cy="160" r="28" fill="#c084fc" opacity="0.2"/>
+
+  <!-- Stars -->
+  <circle cx="160" cy="140" r="2" fill="#e9d5ff" opacity="0.6"/>
+  <circle cx="220" cy="120" r="1.5" fill="#e9d5ff" opacity="0.5"/>
+  <circle cx="300" cy="135" r="2" fill="#e9d5ff" opacity="0.7"/>
+  <circle cx="360" cy="115" r="1.5" fill="#e9d5ff" opacity="0.4"/>
+  <circle cx="180" cy="170" r="1" fill="#e9d5ff" opacity="0.5"/>
+  <circle cx="270" cy="155" r="1.5" fill="#e9d5ff" opacity="0.6"/>
+  <circle cx="450" cy="130" r="1" fill="#e9d5ff" opacity="0.5"/>
+
+  <!-- Selection handles on generated image -->
+  <rect x="104" y="96" width="396" height="288" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="6 4" rx="14"/>
+  <circle cx="108" cy="100" r="4" fill="#a855f7"/>
+  <circle cx="496" cy="100" r="4" fill="#a855f7"/>
+  <circle cx="108" cy="380" r="4" fill="#a855f7"/>
+  <circle cx="496" cy="380" r="4" fill="#a855f7"/>
+
+  <!-- Right panel - Prompt & Layers -->
+  <rect x="548" y="64" width="236" height="400" fill="#110e24" rx="12" stroke="#2d2650" stroke-width="1"/>
+
+  <!-- Prompt section -->
+  <text x="572" y="92" fill="#e9d5ff" font-family="system-ui" font-size="12" font-weight="600">Prompt</text>
+
+  <rect x="564" y="104" width="204" height="72" fill="#1a1333" rx="8" stroke="#2d2650" stroke-width="1"/>
+  <text x="576" y="124" fill="#9ca3af" font-family="system-ui" font-size="10">"A mystical purple mountain</text>
+  <text x="576" y="140" fill="#9ca3af" font-family="system-ui" font-size="10">landscape under a glowing</text>
+  <text x="576" y="156" fill="#9ca3af" font-family="system-ui" font-size="10">moon with stars..."</text>
+
+  <!-- Generate button -->
+  <rect x="564" y="188" width="204" height="36" fill="url(#gen)" rx="8"/>
+  <text x="666" y="211" text-anchor="middle" fill="white" font-family="system-ui" font-size="12" font-weight="600">Generate Image</text>
+
+  <!-- Settings -->
+  <text x="572" y="252" fill="#e9d5ff" font-family="system-ui" font-size="12" font-weight="600">Settings</text>
+
+  <text x="572" y="276" fill="#9ca3af" font-family="system-ui" font-size="10">Style</text>
+  <rect x="640" y="264" width="128" height="24" fill="#1a1333" rx="6" stroke="#2d2650" stroke-width="1"/>
+  <text x="654" y="280" fill="#c084fc" font-family="system-ui" font-size="10">Fantasy Art</text>
+
+  <text x="572" y="308" fill="#9ca3af" font-family="system-ui" font-size="10">Size</text>
+  <rect x="640" y="296" width="128" height="24" fill="#1a1333" rx="6" stroke="#2d2650" stroke-width="1"/>
+  <text x="654" y="312" fill="#c084fc" font-family="system-ui" font-size="10">1024 x 1024</text>
+
+  <!-- Layers section -->
+  <text x="572" y="348" fill="#e9d5ff" font-family="system-ui" font-size="12" font-weight="600">Layers</text>
+
+  <rect x="564" y="360" width="204" height="32" fill="#7c3aed" opacity="0.15" rx="6" stroke="#7c3aed" stroke-width="1"/>
+  <circle cx="580" cy="376" r="6" fill="#a855f7" opacity="0.6"/>
+  <text x="596" y="380" fill="#e9d5ff" font-family="system-ui" font-size="10">Generated Image</text>
+
+  <rect x="564" y="398" width="204" height="32" fill="#1a1333" rx="6" stroke="#2d2650" stroke-width="1"/>
+  <circle cx="580" cy="414" r="6" fill="#3b82f6" opacity="0.6"/>
+  <text x="596" y="418" fill="#9ca3af" font-family="system-ui" font-size="10">Background</text>
+
+  <rect x="564" y="436" width="204" height="24" fill="transparent" rx="6" stroke="#2d2650" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="666" y="452" text-anchor="middle" fill="#6b7280" font-family="system-ui" font-size="10">+ Add Layer</text>
+</svg>

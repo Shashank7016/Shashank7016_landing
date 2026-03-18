@@ -58,7 +58,7 @@ export default function About({ theme }: AboutProps) {
           <div className="space-y-6">
             {[
               "As a skilled Frontend Developer with expertise in React, Next.js, and backend technologies like Node.js, MongoDB, and SQL, I bring a comprehensive approach to web development. My passion lies in delivering scalable, user-centric solutions that combine aesthetic appeal with functional excellence.",
-              "I have experience working with AI and LLM technologies using Python and cloud platforms such as AWS and Azure. My recent projects include developing dynamic platforms like Nimble Marketplace, an interactive 3D Shoe Customization Store, and a Flood Prevention Management System.",
+              "I have experience working with AI and LLM technologies using Python and cloud platforms such as AWS and Azure. My recent projects include developing dynamic platforms like AI Bill Splitter,Image Generator & Editor, an interactive 3D Shoe Customization Store, and a Flood Prevention Management System.",
               "I thrive on creating innovative web experiences and am eager to contribute to impactful, cutting-edge applications. My goal is to continue pushing the boundaries of what's possible in frontend development while delivering exceptional user experiences.",
             ].map((text, i) => (
               <motion.p
